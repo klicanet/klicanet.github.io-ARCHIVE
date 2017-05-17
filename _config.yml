@@ -1,6 +1,6 @@
 # Site settings
-title:
-email:
+title: Agava Apartments
+email: reservation@klica.net
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,20 +9,19 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
+owner: Tito Balić
+email: reservation@klica.net
+facebook_username: omisz
 address:
-  - line:
-  - line:
+  - line: "43.416984,16.719161"
+  #- line: "Balića Rat"
+  #- line: "Stanići, Croatia"
   # Feel free to add more lines here 
-telephone:
-copyright:
+telephone: +385915699652
+copyright: Agava Apartments
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyAeF6oJkdHb9BA6L-v0Xmvq7sR95QJIZoc
 
 # Build settings
 markdown: kramdown
