@@ -25,3 +25,7 @@ google_api_key: AIzaSyAeF6oJkdHb9BA6L-v0Xmvq7sR95QJIZoc
 
 # Build settings
 markdown: kramdown
+
+calendar_timezone_offset: 0100 
+calendar_csv: example/events.csv
+calendar_focus_date: 2017-01-06
