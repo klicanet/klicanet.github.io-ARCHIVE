@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Raleway, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
@@ -161,6 +161,9 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.header h1 {
+	font-family: 'Comfortaa', cursive;
+}
 
 /* About */
 
@@ -175,7 +178,7 @@ hr.small {
 }
 
 .service-item {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* Callout */
@@ -248,4 +251,11 @@ footer {
    position: absolute;
    margin: 5px 0 0 5px;
    z-index: 1;
+ }
+ 
+ #services li {
+    list-style: none; 
+    text-decoration: none;
+	margin: 0 0 0 -2em;
+ 
  }
