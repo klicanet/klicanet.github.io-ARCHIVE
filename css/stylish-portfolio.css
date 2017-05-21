@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Stylish apartment Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -163,6 +163,7 @@ hr.small {
 }
 .header h1 {
 	font-family: 'Comfortaa', cursive;
+	font-size: 3.5em;
 }
 
 /* About */
@@ -195,21 +196,21 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Portfolio */
+/* apartment */
 
-.portfolio {
+.apartment {
     padding: 50px 0;
 }
 
-.portfolio-item {
+.apartment-item {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+.img-apartment {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-apartment:hover {
     opacity: 0.8;
 }
 
@@ -259,3 +260,75 @@ footer {
 	margin: 0 0 0 -2em;
  
  }
+ .photo-gallery li {
+	list-style: none; 
+    text-decoration: none;
+	text-align:center;
+ }
+ 
+/* modal */
+.apartment-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.apartment-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.apartment-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.apartment-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.apartment-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.apartment-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.apartment-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.apartment-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* Fix modal mouse wheel issues */
+/* https://github.com/twbs/bootstrap/issues/16297 */
+.modal.fade.in {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}

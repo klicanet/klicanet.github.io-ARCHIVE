@@ -1,0 +1,41 @@
+ <!-- Apartments Modals -->
+    <div class="apartment-modal modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+						<ul class="photo-gallery">
+                            {% for image in page.A1-images %}
+							<li>
+                            <img src="images/{{ image.path }}" class="img-responsive img-centered" alt="{{ image.alt }}">
+							</li>
+							{% endfor %}
+						</ul>							
+                            <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="apartment-modal modal fade" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+						<ul class="photo-gallery">
+                            {% for image in page.A2-images %}
+							<li>
+                            <img src="images/{{ image.path }}" class="img-responsive img-centered" alt="{{ image.alt }}">
+							</li>
+							{% endfor %}
+						</ul>							
+                            <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
