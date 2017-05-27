@@ -1,4 +1,13 @@
-Title,Start,End,Mark
-A1 occupied,5/5/17,15/5/17,Info
-A2 occupied,6/5/17,10/5/17,Warning
-A1 occupied,15/5/17,28/5/17,Info
+Title,Start,End,Mark,
+A1 occupied,22/7/2017 12:00:00,28/7/2017 09:00:00,Info,
+A2 occupied,16/7/2017 12:00:00,28/7/2017 09:00:00,Warning,
+A1 occupied,29/7/2017 12:00:00,11/8/2017 09:00:00,Info,
+A2 occupied,29/7/2017 12:00:00,11/8/2017 09:00:00,Warning,
+A1 occupied,12/8/2017 12:00:00,19/8/2017 09:00:00,Info,
+A2 occupied,12/8/2017 12:00:00,19/8/2017 09:00:00,Warning,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
